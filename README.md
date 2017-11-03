@@ -1,3 +1,5 @@
+Site is deployed at https://amblearnr.firebaseapp.com/
+
 ## Galvanize Learnr
 
 Following instructions, build and publish a website about learning to learn and goal setting. Keep it up to date with progress on your goal, applications of learning to learn, and things you've learned at meetups.
