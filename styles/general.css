@@ -83,7 +83,7 @@ aside h3 {
 	padding-bottom: 2rem;
 }
 
-section {
+.wrapper {
 	float: right;
 	width: 80%;
 	/*background: url("/media/learn-background-2.png");
