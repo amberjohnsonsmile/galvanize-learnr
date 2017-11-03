@@ -17,6 +17,7 @@ header {
 	height: 10%;
 	padding: 0 3rem;
 	border-bottom: 2px dashed #4c4c4c;
+	overflow: hidden;
 }
 
 header a {
@@ -60,10 +61,12 @@ aside {
 	margin-top: -1rem;
 	box-sizing: border-box;
 	border-right: 2px dashed #4c4c4c;
+	overflow: scroll;
 }
 
 aside h2 {
-	font-size: 2.7rem; padding-bottom: 3rem;
+	font-size: 2.7rem;
+	padding-bottom: 3rem;
 }
 
 aside a {
@@ -83,8 +86,8 @@ aside h3 {
 section {
 	float: right;
 	width: 80%;
-	background: url("/media/learn-background-2.png");
-	background-attachment: fixed;
+	/*background: url("/media/learn-background-2.png");
+	background-attachment: fixed;*/
 	padding-bottom: 10rem;
 }
 

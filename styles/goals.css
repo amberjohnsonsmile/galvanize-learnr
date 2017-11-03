@@ -1,0 +1,9 @@
+main {
+	background: url("/media/goals-background.png");
+	background-attachment: fixed;
+}
+
+article li {
+	font-size: 1.5rem;
+	padding-top: 1rem;
+}

@@ -1,0 +1,37 @@
+main {
+	background: url("/media/about-background.png");
+}
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    float: right;
+    position: fixed;
+    margin-left: 88%;
+    margin-top: 3%;
+}
+
+.amber {
+	width: 30%;
+	height: auto;
+	border-radius: 20px;
+	float: left;
+	position: static;
+	margin: 7% 0 0 10%;
+}
+
+.about {
+	width: 40%;
+	float: right;
+	margin: 15% 15% 0 0;
+}
+
+h2 {
+	font-size: 3rem;
+	padding-bottom: 2rem;
+}
+
+p {
+	font-size: 2rem;
+}
