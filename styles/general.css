@@ -1,0 +1,136 @@
+body {
+	height: 100vh;
+	font-family: Alegreya, serif;
+	color: #4c4c4c;
+}
+
+header, footer {
+	background: #c7d7cf;
+	position: relative;
+	z-index: 1;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10%;
+	padding: 0 3rem;
+	border-bottom: 2px dashed #4c4c4c;
+}
+
+header a {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+
+h1 {
+	font-size: 4rem;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding-left: 2rem;
+	color: #4c4c4c;
+}
+
+main {
+	height: 85%;
+	overflow: scroll;
+}
+
+main img {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	float: right;
+	position: fixed;
+	margin-left: 68%;
+	margin-top: 3%;
+}
+
+aside {
+	position: fixed;
+	width: 20%;
+	height: 88%;
+	background: #efdd6f;
+	padding: 2.8rem;
+	margin-top: -1rem;
+	box-sizing: border-box;
+	border-right: 2px dashed #4c4c4c;
+}
+
+aside h2 {
+	font-size: 2.7rem; padding-bottom: 3rem;
+}
+
+aside a {
+	text-decoration: none;
+	color: #4c4c4c;
+}
+
+aside time {
+	font-size: 1.5rem;
+}
+
+aside h3 {
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+
+section {
+	float: right;
+	width: 80%;
+	background: url("/media/learn-background-2.png");
+	background-attachment: fixed;
+	padding-bottom: 10rem;
+}
+
+article {
+	padding: 14rem 14rem 0 6rem;
+}
+
+article h2 {
+	font-size: 3rem;
+}
+
+article time {
+	font-size: 2rem;
+}
+
+article h3 {
+	font-size: 2rem;
+	padding-top: 5rem;
+}
+
+article p {
+	font-size: 1.5rem;
+	padding-top: 2rem;
+}
+
+article a {
+	text-decoration: none;
+	color: #7e8e7a;
+	font-weight: 900;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5%;
+	padding: 0 3rem;
+	border-top: 2px dashed #4c4c4c;
+}
+
+figure img {
+	height: 20px;
+	width: 20px;
+	padding-left: 1rem;
+}
+
+small {
+	font-size: 1.3rem;
+}
