@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Open+Sans');
+
 body {
 	height: 100vh;
 	font-family: Alegreya, serif;
@@ -6,7 +8,9 @@ body {
 
 header, footer {
 	background: #c7d7cf;
-	position: relative;
+	position: fixed;
+	width: 100vw;
+	box-sizing: border-box;
 	z-index: 1;
 }
 
@@ -38,8 +42,7 @@ nav a {
 }
 
 main {
-	height: 85%;
-	overflow: scroll;
+	height: 95%;
 }
 
 main img {
@@ -49,19 +52,19 @@ main img {
 	float: right;
 	position: fixed;
 	margin-left: 68%;
-	margin-top: 3%;
+	margin-top: 10%;
 }
 
 aside {
 	position: fixed;
 	width: 20%;
-	height: 88%;
+	height: 100%;
 	background: #efdd6f;
 	padding: 2.8rem;
-	margin-top: -1rem;
+	margin-top: 5%;
 	box-sizing: border-box;
 	border-right: 2px dashed #4c4c4c;
-	overflow: scroll;
+	overflow: hidden;
 }
 
 aside h2 {
@@ -84,11 +87,9 @@ aside h3 {
 }
 
 .wrapper {
-	float: right;
 	width: 80%;
-	/*background: url("/media/learn-background-2.png");
-	background-attachment: fixed;*/
 	padding-bottom: 10rem;
+	margin-left: 20%;
 }
 
 article {
@@ -106,6 +107,10 @@ article time {
 article h3 {
 	font-size: 2rem;
 	padding-top: 5rem;
+}
+
+p, li {
+	font-family: "Open Sans";
 }
 
 article p {

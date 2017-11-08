@@ -1,4 +1,4 @@
-main {
+body {
 	background: url("/media/about-background.png");
 }
 
@@ -6,25 +6,23 @@ main {
     height: 100px;
     width: 100px;
     border-radius: 100px;
-    float: right;
     position: fixed;
     margin-left: 88%;
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 .amber {
 	width: 30%;
 	height: auto;
 	border-radius: 20px;
-	float: left;
-	position: static;
-	margin: 7% 0 0 10%;
+	margin: 12% auto auto 12%;
 }
 
 .about {
 	width: 40%;
-	float: right;
-	margin: 15% 15% 0 0;
+	position: absolute;
+	right: 15%;
+	top: 40%;
 }
 
 h2 {
